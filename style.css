@@ -1,0 +1,91 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    outline: none;
+  
+    font-family: sans-serif;
+    font-style: bold;
+}
+.container
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:skyblue;
+}
+.calculator
+{
+    background-color:rgb(35, 31, 31);
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px rgb(34, 25, 25),
+                       5px 5px 12px rgba(0,0,0,.16);
+    display: grid;
+    grid-template-columns: repeat(4,68px);
+}
+input
+{
+    grid-column: span 4;
+    height: 70px;
+    width: 260px;
+    background-color:rgb(222, 215, 215);
+    box-shadow: inset -5px -5px 12px #ffffff,
+                inset 5px 5px 12px rgba(0,0,0,.16);
+    border: none;
+    border-radius: 30px;
+    color: rgb(41, 34, 34);
+    font-size: 50px;
+    text-align: end;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 20px;
+
+    
+}
+button
+{
+    height: 48px;
+    width: 48px;
+    background-color:rgb(222, 215, 215);
+ 
+    box-shadow: -5px -5px 12px rgb(58, 52, 52),
+                6px 6px 12px rgba(35, 32, 32, 0.16);
+
+   border-radius:50px;
+    margin: 8px;
+    border: none;
+    cursor: pointer;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+.equal
+{
+    width: 115px;
+    height: 40px;
+    box-shadow: -5px -5px 12px  rgb(58, 52, 52),
+    6px 6px 12px rgba(0,0,0,.16);
+    background-color: rgb(139, 245, 209);
+
+}
+h5
+{
+    font-size: 20px;
+    padding-left: 64px;
+    padding-top: 10px;
+    color:rgb(231, 223, 223);
+}
+
+.clear
+{
+   background-color: rgb(220, 24, 24);
+}
+.clears
+{
+    background-color: rgb(210, 210, 87);
+}
